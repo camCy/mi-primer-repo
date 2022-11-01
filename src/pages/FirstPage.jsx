@@ -11,7 +11,8 @@ export const FirstPage = () => {
 
     return(
         <>
-        <h1>contador</h1>
+        <h1>contador mejorado</h1>
+        <hr />
         <h1>{value}</h1>
         
         <button onClick={()=>modificarValor(+1)}>+1</button>
